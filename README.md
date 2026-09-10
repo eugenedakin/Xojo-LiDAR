@@ -8,8 +8,10 @@ Here is the screen grab of the running program:
 To wire up the TF-Luna, here is the wiring diagram:
 ![](https://github.com/eugenedakin/Xojo-LiDAR/blob/main/LiDARBreadboardRev1.png)
 
+
 Here are the installation instructions: 
 The lgpio library provides low-level hardware access for the Raspberry Pi. It is presumed that a Raspberry Pi 4 B or 5 B is being used with the latest Raspberry Pi OS (Trixie). Open a terminal on Raspberry Pi and type the following commands:
+
 1. sudo apt install swig python3-dev
 2. sudo apt install python3-setuptools
 3. sudo apt install libunwind8
